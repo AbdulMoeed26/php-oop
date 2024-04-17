@@ -1,0 +1,35 @@
+Object oriented programming
+
+1. Classes & Objects
+class:
+class is a template. It's like a structure. e.g, house map. classes are blueprint of an object.
+
+Objects: 
+
+a) property (variable) anything that has value is called property
+b) behavior (functions)
+
+
+2. Constructor
+A constructor allows you to initialize an object's properties upon creation of the object.
+
+If you create a __construct() function, PHP will automatically call this function when you create an object from a class.
+
+Notice that the construct function starts with two underscores (__)!
+
+3. Inheritance
+Inheritance in OOP = When a class derives from another class.
+
+The child class will inherit all the public and protected properties and methods from the parent class. In addition, it can have its own properties and methods.
+
+An inherited class is defined by using the extends keyword.
+
+4. Access Modifiers
+Properties and methods can have access modifiers which control where they can be accessed.
+
+There are three access modifiers:
+
+public - the property or method can be accessed from everywhere. This is default
+protected - the property or method can be accessed within the class and by classes derived from that class
+private - the property or method can ONLY be accessed within the class
+
